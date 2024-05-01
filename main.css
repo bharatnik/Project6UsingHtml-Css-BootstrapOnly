@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #739ee3;
+    overflow-x: hidden;
+}
+/* START GROUP 1 */
+/* START BANNER 1 */
+.banner1{
+     background-image: url(/20-NovVeterinaryBuisness/assets/Images/G1IMG1.png);
+     background-repeat: no-repeat;
+     height: 900px;
+     background-size: cover;
+     position: relative;
+     z-index: 5;
+}
+.banner1 .banner1A{
+    position: absolute;
+    top: 365px;
+    left: 330px;
+}
+.header{
+    background-color: #5380c1;
+    opacity: 0.8;
+}
+.logo{
+    padding: 25px 50px 25px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding: 40px 30px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    border-radius: 15px;
+    /* background-color: orangered; */
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 27px;
+}
+.header .search{
+     position: relative;
+     padding-top: 55px;
+}
+.header .search img{
+    position: absolute;
+    right: 50px;
+    width:15px;
+    bottom: 5px;
+}
+.search input{
+     background-color: transparent;
+     border: 0;
+     border-bottom: 1px solid #fff;
+     color: #fff;
+}
+::-webkit-input-placeholder{
+     color: #fff;
+}
+.banner1 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+.banner1 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    margin: 30px 0px;
+}
+.banner1 .btn1{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    border-radius: 32px;
+    background-color: #edc315;
+    padding:6px 40px;
+    margin-left: 300px;
+}
+/* START GROUP 2 */
+/* START bANNER 2 */
+.banner2{
+     border: 1px solid transparent;
+     position: relative;
+     z-index: 3;
+     height:940px;
+}
+.banner2 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 70px;
+}
+.banner2 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.banner2 h3{
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 20px 0px;
+}
+.banner2 p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+.banner2 .G21{
+     margin-left: 45px;
+}
+.banner2 .art1bigleft{
+    position: absolute;
+    top: -70px;
+    z-index: -5;
+}
+.banner2 .art2bigright{
+    position: absolute;
+    right: 0;
+    top: -120px;
+    z-index: -5;
+}
+.banner2 .art1{
+    position: absolute;
+    top: 80px;
+    left:100px;
+}
+.banner2 .art2{
+    position: absolute;
+    top:100px;right: 130px;
+}
+.banner2 .art3{
+     position: absolute;
+     bottom: -55px;left: 200px;
+}
+.banner2 .art4{
+     position: absolute;
+     bottom: 10px;right:190px;
+}
+/* START GROUP 3 */
+/* START BANNER 3 */
+.banner3{
+    border: 1px solid transparent;
+    background-image: url(/20-NovVeterinaryBuisness/assets/Images/G3IMGmain.png);
+    background-repeat: no-repeat;
+    height:970px;
+    background-size: cover;
+}
+.banner3 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 90px;
+}
+.banner3 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+.banner3 .circle3{
+    width: 262px;
+    height: 262px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    margin-left: 60px;
+}
+.banner3 .circle3 h3{
+    font-size: 53px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 60px;
+}
+.banner3 .circle3 p{
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+/* START GROUP 4 */
+/* START BANNER 4 */
+.banner4{
+    border: 1px solid transparent;
+    background-color: #5380c1;
+    position:relative;
+}
+.banner4 .art1{
+     position: absolute;
+     top: 70px;
+     left:85px;
+}
+.banner4 .art2{
+    position: absolute;
+    top: 70px;
+    right: 170px;
+}
+.banner4 .art3{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+}
+.banner4 .art4{
+    position: absolute;
+    bottom: -20px;right: 200px;
+}
+.banner4 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    /* text-align: center; */
+    margin-top: 240px;
+}
+.banner4 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    /* text-align: center; */
+    margin: 30px 0px;
+}
+.banner4 .btn4{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    border-radius: 32px;
+    background-color: #edc315;
+    padding: 6px 40px;
+    /* margin-left: 200px; */
+}
+.banner4 .main4{
+    margin: 130px 0px;
+}
+/* START GROUP 5 */
+/* START BANNER 5 */
+.banner5{
+     border: 1px solid transparent;
+     position: relative;
+}
+.banner5 .art1{
+    position: absolute;
+    top: 70px;left: 150px;
+}
+.banner5 .art2{
+    position: absolute;
+    top: 130px;right: 100px;
+}
+.banner5 .art3{
+    position: absolute;
+    bottom: 20px;left: 150px;
+}
+.banner5 .art4{
+    position: absolute;
+    bottom: 100px;right: 380px;
+}
+.banner5 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    /* text-align: center; */
+    margin-top: 240px;
+}
+.banner5 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    /* text-align: center; */
+    margin: 30px 0px;
+}
+.banner5 .btn5{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    border-radius: 32px;
+    background-color: #edc315;
+    padding: 6px 40px;
+}
+.banner5 .main5{
+    margin: 130px 0px;
+    margin-left: 20px;
+}
+/* START GROUP 6 */
+/* START BANNER 6 */
+.banner6{
+    border: 1px solid transparent;
+    background-color: #5380c1;
+    height: 980px;
+}
+.banner6 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 80px;
+}
+.banner6 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 50px;margin-bottom: 120px;
+}
+.banner6 .card1 h3{
+    font-size: 37px;
+    color: #739ee3;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 30px 0px;
+}
+.banner6 .card1{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #ffffff;
+    /* width: 300px; */
+}
+.banner6 .card1 .shape{
+     margin-left: 160px;
+}
+.banner6 .card1 p{
+    font-size: 22px;
+    color: #739ee3;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin:30px 0px;
+}
+.banner6 .card1 .btn6{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    border-radius: 32px;
+    background-color: #edc315;
+    padding: 7px 80px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+/* START Group 7 */
+/* START BANNER 7 */
+.banner7{
+    border: 1px solid transparent;
+    position: relative;
+    height:950px;
+}
+.banner7 .art1{
+    position: absolute;
+    right: -5px;top: 100px;
+}
+.banner7 .art2{
+    position: absolute;
+    left: -5px;bottom: 40px;
+}
+.banner7 .art3{
+    position: absolute;
+    right: 0px;
+    bottom: -150px;
+    z-index: -10;
+}
+.banner7 h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 80px;
+}
+.banner7 h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 50px;margin-bottom: 80px;
+}
+.banner7 .card1{
+    position: relative;
+    /* border: 1px solid red; */
+}
+.banner7 .card1 .icon7{
+    position: absolute;
+    top: 20px;
+}
+.banner7 .card1 h3{
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align:center;
+}
+.banner7 .card1 p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* START GROUP 8 */
+/* START BANNER 8 */
+.banner8{
+     border: 1px solid transparent;
+     position: relative;
+     height: 990px;
+}
+.banner8 .main8{
+    position: absolute;
+    z-index: -5;
+    width:1520px;
+}
+.banner8 h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 500px;
+}
+.banner8 h2{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 40px 0px;
+}
+/* START GROUP 9 */
+/* START BANNER 9 */
+.banner9{
+    border: 1px solid transparent;
+    background-color: #343434;
+    height: 400px;
+}
+.banner9 .banner9A{
+    border: 1px solid transparent;
+}
+.banner9 .banner9A h1{
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Nunito";
+    margin-top: 50px;
+}
+.banner9 .banner9A h2{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin: 30px 0px;
+}
+.banner9 .banner9A a{
+    margin-right: 20px;
+}
+.banner9 .banner9B{
+    border: 1px solid transparent;
+}
+.banner9 .banner9B h1{
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Nunito";
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.banner9 .banner9B ul{
+     list-style-type: none;
+}
+.banner9 .banner9B ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin: 10px 20px;
+}
